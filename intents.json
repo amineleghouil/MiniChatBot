@@ -1,0 +1,44 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": ["Hi", "Hello", "Hey", "Greetings", "Good day", "What's up?", "How's it going?", "Howdy"],
+			"responses": ["Hello!", "Hi there!", "Hey! How can I help?", "Greetings! What can I do for you?"]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["Bye", "Goodbye", "See you later", "Cya", "Take care", "I'm leaving", "See ya", "Catch you later"],
+			"responses": ["Goodbye! Have a great day!", "See you soon!", "Take care!", "Bye! Hope to chat again!"]
+		},
+		{
+			"tag": "thanks",
+			"patterns": ["Thanks", "Thank you", "Appreciate it", "Much obliged", "Many thanks", "Thx"],
+			"responses": ["You're welcome!", "Happy to help!", "Anytime!", "No problem!"]
+		},
+		{
+			"tag": "help",
+			"patterns": ["Can you help me?", "I need assistance", "Help!", "Can you assist me?", "I have a problem"],
+			"responses": ["Of course! What do you need help with?", "I'm here to assist you!", "Tell me more about the issue."]
+		},
+		{
+			"tag": "programming",
+			"patterns": ["What is programming?", "What is coding?", "Tell me about software development", "Explain coding", "What is Python?"],
+			"responses": ["Programming is the process of creating and maintaining software.", "Coding involves writing instructions for computers to follow.", "Software development includes designing, coding, testing, and maintaining software."]
+		},
+		{
+			"tag": "weather",
+			"patterns": ["How's the weather?", "What's the weather like?", "Tell me the forecast", "Is it sunny today?", "Will it rain?"],
+			"responses": ["I can't check the weather directly, but you can try a weather website!", "Check your local forecast for the latest weather updates!"]
+		},
+		{
+			"tag": "bot_identity",
+			"patterns": ["Who are you?", "What is your name?", "Are you a bot?", "Tell me about yourself"],
+			"responses": ["I'm a chatbot here to assist you!", "I'm an AI assistant created to help answer your questions!", "Just a friendly bot ready to chat!"]
+		},
+		{
+			"tag": "jokes",
+			"patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+			"responses": ["Why don’t programmers like nature? It has too many bugs!", "Why do Java developers wear glasses? Because they don’t see sharp!", "I told my computer I needed a break, and now it won’t stop sending me vacation ads!"]
+		}
+	]
+}
